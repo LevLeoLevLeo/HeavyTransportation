@@ -1,0 +1,28 @@
+﻿<Page x:Class="HeavyTransportation.Pages.ParthnersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HeavyTransportation.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="ParthnersPage">
+
+    <Grid>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+
+                <RadioButton Name="Rdb_WithParthner" Content="Рейсы, выполенные с напарником" Click="Rdb_WithParthner_Click"/>
+                <RadioButton Name="Rdb_WithoutParthner" Content="Рейсы, выполенные без напарника" Click="Rdb_WithParthner_Click" Margin="10 0 0 0"/>
+
+            </StackPanel>
+
+            <Button Name="Btn_ShowTable" Content="Показать" FontSize="15pt" Width="100px" Margin="0 10 0 0" Click="Btn_ShowTable_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Page>
