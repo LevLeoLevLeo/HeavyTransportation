@@ -1,5 +1,4 @@
 ﻿using HeavyTransportation.Class;
-using HeavyTransportation.DataBase;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,20 +13,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows.Threading;
 
 namespace HeavyTransportation.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для RouteDriversPage.xaml
+    /// Логика взаимодействия для OrdersPage.xaml
     /// </summary>
-    public partial class RouteDriversPage : Page
+    public partial class OrdersPage : Page
     {
-        public RouteDriversPage()
+        public OrdersPage()
         {
             InitializeComponent();
+        }
 
-            ListRoute.ItemsSource = ClassDataBase.DBheavyTransportation.Order.Where(y => y.IdParthner != null).ToList();
+        private void Btn_AddOrder_Click(object sender, RoutedEventArgs e)
+        {
+            ClassFrames.FrmMainWindow.Navigate(new AddOrder());
+        }
+
+        private void Btn_ListOrder_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

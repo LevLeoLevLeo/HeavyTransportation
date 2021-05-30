@@ -18,8 +18,8 @@
 
                     <DataGridTextColumn Binding="{Binding Driver.FirstName}" Width="*" Header="Имя водителя"/>
                     <DataGridTextColumn Binding="{Binding Driver.LastName}" Width="*" Header="Фамилия водителя"/>
-                    <DataGridTextColumn Binding="{Binding Driver.FirstName}" Width="*" Header="Имя напарника"/>
-                    <DataGridTextColumn Binding="{Binding IdParthner}" Width="*" Header="Фамилия напарника"/>
+                    <DataGridTextColumn Binding="{Binding IdParthner}" Width="*" Header="Имя напарника"/> <!-- Я так и не придумал как выводить имя и фамилию напарника -->
+                    <DataGridTextColumn Binding="{Binding IdParthner}" Width="*" Header="Фамилия напарника"/> 
                     <DataGridTextColumn Binding="{Binding Id}" Width="*" Header="Номер заказа"/>
 
                 </DataGrid.Columns>

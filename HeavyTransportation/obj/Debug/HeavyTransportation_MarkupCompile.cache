@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\App.xaml
-6-212447956
+8-1890648137
 2-879988673
-21844072586
+23-255372518
 181145294518
-MainWindow.xaml;Pages\DriversPage.xaml;Pages\FirstPage.xaml;Pages\ParthnersPage.xaml;Pages\RouteDriversPage.xaml;Pages\RouteDriversWithoutParthnerPage.xaml;
+MainWindow.xaml;Pages\AddOrder.xaml;Pages\DriversPage.xaml;Pages\FirstPage.xaml;Pages\OrdersPage.xaml;Pages\ParthnersPage.xaml;Pages\RouteDriversPage.xaml;Pages\RouteDriversWithoutParthnerPage.xaml;
 
 False
 

@@ -31,3 +31,7 @@ C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\
 C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\RouteDriversPage.baml
 C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\RouteDriversWithoutParthnerPage.g.cs
 C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\RouteDriversWithoutParthnerPage.baml
+C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\AddOrder.g.cs
+C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\OrdersPage.g.cs
+C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\AddOrder.baml
+C:\Users\LevLeo\Desktop\HeavyTransportation\HeavyTransportation\obj\Debug\Pages\OrdersPage.baml

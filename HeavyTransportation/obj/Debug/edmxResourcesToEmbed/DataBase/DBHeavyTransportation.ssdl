@@ -74,7 +74,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Order_Trailer">
+  <Association Name="FK_Order_Trailer1">
     <End Role="Trailer" Type="Self.Trailer" Multiplicity="1" />
     <End Role="Order" Type="Self.Order" Multiplicity="*" />
     <ReferentialConstraint>
@@ -130,7 +130,7 @@
       <End Role="Driver" EntitySet="Driver" />
       <End Role="Order" EntitySet="Order" />
     </AssociationSet>
-    <AssociationSet Name="FK_Order_Trailer" Association="Self.FK_Order_Trailer">
+    <AssociationSet Name="FK_Order_Trailer1" Association="Self.FK_Order_Trailer1">
       <End Role="Trailer" EntitySet="Trailer" />
       <End Role="Order" EntitySet="Order" />
     </AssociationSet>

@@ -14,9 +14,9 @@
 
             <DataGrid.Columns>
 
-                <DataGridTextColumn Header="Имя водителя" Width="*" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Имя водителя" Width="*" Binding="{Binding Driver.FirstName}"/>
                 <DataGridTextColumn Header="Фамилия водителя" Width="*" Binding="{Binding Driver.LastName}"/>
-                <DataGridTextColumn Header="Номер заказа" Width="*" Binding="{Binding Order.Id}"/>
+                <DataGridTextColumn Header="Номер заказа" Width="*" Binding="{Binding Id}"/>
 
             </DataGrid.Columns>
             

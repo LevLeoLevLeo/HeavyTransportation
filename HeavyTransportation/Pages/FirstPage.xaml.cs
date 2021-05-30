@@ -43,7 +43,8 @@ namespace HeavyTransportation.Pages
 
         private void Btn_Orders_Click(object sender, RoutedEventArgs e)
         {
-
+            ClassFrames.FrmMainWindow.Navigate(new OrdersPage());
+            ClassFrames.BtnBack.Visibility = Visibility.Visible;
         }
     }
 }

@@ -27,21 +27,8 @@ namespace HeavyTransportation.Pages
         {
             InitializeComponent();
 
+            ListRouteWithoutParthner.ItemsSource = ClassDataBase.DBheavyTransportation.Order.Where(y => y.IdParthner == null).ToList();
 
-
-          
-            ListRouteWithoutParthner.ItemsSource = ClassDataBase.DBheavyTransportation.Order.ToList();
-        
-            DispatcherTimer timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Tick += UpdateData;
-            timer.Start();
         }
-
-        public void UpdateData(object sender, object e)
-        {
-            ListRouteWithoutParthner.ItemsSource = ClassDataBase.DBheavyTransportation.Order.ToList();
-        }
-
     }
-    }
+}
